@@ -1,0 +1,129 @@
+body {
+  font-family: Arial;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  margin: auto;
+}
+
+tr {
+  border: 1px solid #dddddd;
+}
+
+thead {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  height: 22px;
+}
+
+tbody tr:nth-child(4) {
+  border-bottom: 2px solid #cccccc;
+}
+
+tbody tr:nth-child(16) {
+  border-bottom: 2px solid #cccccc;
+}
+
+tbody td {
+  width: 2.2rem;
+  font-size: 14px;
+  color: #666666;
+  height: 25px;
+}
+
+tbody td:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+tbody td:nth-child(1) {
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+tbody td:nth-child(2) {
+  text-align: left;
+  font-weight: bold;
+  color: #666666;
+  width: 10rem;
+}
+
+tbody td:nth-child(3) {
+  color: black;
+  font-weight: bold;
+}
+
+tbody td:nth-child(11) {
+  width: 2.5rem;
+}
+
+.square-libertadores {
+  border-radius: 1px;
+  display: inline-block;
+  height: 8px;
+  vertical-align: middle;
+  width: 8px;
+  background-color: #003366;
+}
+
+.square-preLibertadores {
+  border-radius: 1px;
+  display: inline-block;
+  height: 8px;
+  vertical-align: middle;
+  width: 8px;
+  background-color: #1398be;
+}
+
+.square-sulAmericana {
+  border-radius: 1px;
+  display: inline-block;
+  height: 8px;
+  vertical-align: middle;
+  width: 8px;
+  background-color: #de9800;
+}
+
+.square-rebaixados {
+  border-radius: 1px;
+  display: inline-block;
+  height: 8px;
+  vertical-align: middle;
+  width: 8px;
+  background-color: #c91b04;
+}
+
+.libertadores {
+  color: #003366;
+}
+
+.pre-libertadores {
+  color: #1398be;
+}
+
+.sul-americana {
+  color: #de9800;
+}
+
+.nothing-at-all {
+  color: #cccccc;
+}
+
+.rebaixamento {
+  color: #c91b04;
+}
+
+.footer {
+  position: relative;
+  padding: 10px;
+  font-size: 10px;
+  text-align: left;
+  color: #8f8f8f;
+}
